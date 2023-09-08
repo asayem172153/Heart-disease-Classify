@@ -6,8 +6,7 @@ The original dataset of nearly 300 variables was reduced to just about
 apply a range of machine learning methods, most notably classifier 
 models (Logistic Regression, SVM, KNN, XgBoost, AdaBoost, Decision 
 Tree, Random Forest, ANN etc.). You should treat the variable 
-"HeartDisease" as a binary ("Yes" - respondent had heart disease; "No" 
-- respondent had no heart disease). But note that classes are not 
+"HeartDisease" as a binary ("Yes", respondent had heart disease; "No", respondent had no heart disease). But note that classes are not 
 balanced, So the classic model application approach is not advisable. 
 Fixing the weights/undersampling should yield significantly betters 
 results. Based on the dataset, Can you indicate which variables have a 
